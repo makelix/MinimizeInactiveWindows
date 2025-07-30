@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Name": "Minimize Inactive Windows",
+        "Description": "Minimizes inactive windows",
+        "Icon": "preferences-system-windows",
+
+        "Authors": [
+            {
+                "Email": "marko.haverinen@proton.me",
+                "Name": "Marko Haverinen"
+            }
+        ],
+        "Id": "MinimizeInactiveWindows",
+        "Version": "0.2",
+        "License": "Unlicense",
+        "Website": ""
+    },
+    "KPackageStructure": "KWin/Script",
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
